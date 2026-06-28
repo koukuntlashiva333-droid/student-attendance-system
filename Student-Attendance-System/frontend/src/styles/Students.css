@@ -1,0 +1,141 @@
+.students-container{
+
+    margin-left:240px;
+
+    padding:40px;
+
+    min-height:100vh;
+}
+
+
+.students-container h1{
+
+    margin-bottom:30px;
+
+    font-size:40px;
+}
+
+
+.student-form{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:20px;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    padding:30px;
+
+    border-radius:25px;
+
+    backdrop-filter:blur(20px);
+
+    margin-bottom:40px;
+}
+
+
+.student-form input,
+.student-form select{
+
+    background:white;
+
+    color:black;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:16px;
+}
+
+
+.student-form button{
+
+    grid-column:span 3;
+
+    padding:15px;
+
+    font-size:18px;
+
+    border-radius:15px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #7c3aed,
+        #2563eb
+    );
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+}
+
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:25px;
+
+    overflow:hidden;
+}
+
+
+th{
+
+    background:
+    rgba(255,255,255,0.1);
+
+    padding:20px;
+
+    text-align:left;
+
+    font-size:18px;
+}
+
+
+td{
+
+    padding:20px;
+
+    border-bottom:
+    1px solid
+    rgba(255,255,255,0.1);
+}
+
+
+tr:hover{
+
+    background:
+    rgba(255,255,255,0.05);
+}
+
+
+.edit-btn{
+
+    background:#f59e0b;
+
+    margin-right:10px;
+}
+
+
+.delete-btn{
+
+    background:#ef4444;
+}

@@ -1,0 +1,171 @@
+.classes-container{
+
+    margin-left:240px;
+
+    padding:40px;
+
+    min-height:100vh;
+}
+
+
+.classes-container h1{
+
+    font-size:40px;
+
+    margin-bottom:30px;
+}
+
+
+.class-form{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(2,1fr);
+
+    gap:20px;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(20px);
+
+    padding:30px;
+
+    border-radius:25px;
+
+    margin-bottom:40px;
+}
+
+
+.class-form input{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:16px;
+
+    background:white;
+
+    color:black;
+}
+
+
+.class-form button{
+
+    grid-column:span 2;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:18px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #7c3aed,
+        #2563eb
+    );
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+
+.class-form button:hover{
+
+    transform:translateY(-3px);
+}
+
+
+.class-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(
+        auto-fit,
+        minmax(280px,1fr)
+    );
+
+    gap:25px;
+}
+
+
+.class-card{
+
+    background:
+    rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(20px);
+
+    padding:25px;
+
+    border-radius:25px;
+
+    transition:0.3s;
+}
+
+
+.class-card:hover{
+
+    transform:
+    translateY(-10px);
+
+    box-shadow:
+    0 20px 40px
+    rgba(0,0,0,0.3);
+}
+
+
+.class-card h2{
+
+    margin-bottom:20px;
+
+    color:#f8fafc;
+}
+
+
+.class-card p{
+
+    margin-bottom:12px;
+
+    color:#e2e8f0;
+
+    font-size:17px;
+}
+
+
+.class-buttons{
+
+    margin-top:20px;
+
+    display:flex;
+
+    gap:10px;
+}
+
+
+.edit-btn{
+
+    flex:1;
+
+    background:#f59e0b;
+}
+
+
+.delete-btn{
+
+    flex:1;
+
+    background:#ef4444;
+}

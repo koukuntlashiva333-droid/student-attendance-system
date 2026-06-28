@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+
+  background:
+  linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #4c1d95
+  );
+
+  min-height:100vh;
+
+  color:white;
+
+}
+
+button{
+
+  background:
+  linear-gradient(
+    90deg,
+    #7c3aed,
+    #9333ea
+  );
+
+  border:none;
+
+  color:white;
+
+  padding:12px 20px;
+
+  border-radius:12px;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+button:hover{
+
+  transform:translateY(-2px);
+
+  opacity:0.9;
+
+}
+
+input,
+select{
+
+  padding:12px;
+
+  border:none;
+
+  border-radius:12px;
+
+  outline:none;
+
+}

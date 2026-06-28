@@ -1,0 +1,185 @@
+.reports-page {
+
+    margin-left:240px;
+    padding:40px;
+
+}
+
+.reports-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.reports-header h1{
+
+    font-size:35px;
+
+}
+
+.reports-header p{
+
+    opacity:0.8;
+
+}
+
+.pdf-btn{
+
+    background:linear-gradient(
+        90deg,
+        #ec4899,
+        #8b5cf6
+    );
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:15px;
+
+    font-size:16px;
+
+    font-weight:700;
+
+}
+
+.report-cards{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:25px;
+
+    margin-bottom:30px;
+
+}
+
+.report-card{
+
+    background:rgba(
+        255,
+        255,
+        255,
+        0.1
+    );
+
+    backdrop-filter:blur(20px);
+
+    padding:30px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+}
+
+.report-card h2{
+
+    font-size:35px;
+
+    margin-bottom:10px;
+
+}
+
+.reports-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    1fr 1fr;
+
+    gap:25px;
+
+    margin-bottom:30px;
+
+}
+
+.chart-card,
+.risk-card,
+.student-table-card{
+
+    background:rgba(
+        255,
+        255,
+        255,
+        0.1
+    );
+
+    backdrop-filter:blur(20px);
+
+    padding:30px;
+
+    border-radius:25px;
+
+}
+
+.risk-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:15px;
+
+    margin-top:10px;
+
+    background:rgba(
+        239,
+        68,
+        68,
+        0.2
+    );
+
+    border-radius:15px;
+
+}
+
+.student-table-card table{
+
+    width:100%;
+
+    margin-top:20px;
+
+    border-collapse:collapse;
+
+}
+
+.student-table-card th,
+.student-table-card td{
+
+    padding:15px;
+
+}
+
+.student-table-card tr{
+
+    border-bottom:1px solid rgba(
+        255,
+        255,
+        255,
+        0.1
+    );
+
+}
+
+.safe{
+
+    color:#22c55e;
+
+    font-weight:700;
+
+}
+
+.danger{
+
+    color:#ef4444;
+
+    font-weight:700;
+
+}
